@@ -1,0 +1,173 @@
+/* Ejemplo básico de estilos personalizados */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  #hero {
+    background: url('../img/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand, .nav-link {
+    font-weight: bold;
+  }
+  
+/* Animación de máquina de escribir */
+.typewriter-text {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #fff;
+  width: 0ch;
+  animation: typing 4s steps(43, end) forwards, blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0ch; }
+  to { width: 43ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+
+/* Efecto al pasar el mouse por el título o descripción */
+/* Hover en títulos y descripciones */
+.hover-effect h4,
+.hover-effect p {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hover-effect:hover h4 {
+  color: #0d6efd;
+  transform: scale(1.05);
+}
+
+.hover-effect:hover p {
+  color: #444;
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+
+/* Estilo para el video hacerlo ams vertical*/
+
+.video-container-full {
+  position: relative;
+  width: 100%;
+  height: 90vh; /* puedes ajustar a 100vh si lo deseas pantalla completa */
+  overflow: hidden;
+}
+
+.video-container-full video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilo para el video hacerlo ams vertical*/
+
+ /* Puedes ajustar a 400px o más si lo deseas */
+.project-img {
+  height: 700px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+ /* Puedes ajustar a 400px o más si lo deseas */
+
+
+
+
+
+
+ /* Servicios puedes aumentar a 450px o 500px si deseas más alto */
+ .service-card {
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: scale(1.02);
+}
+
+.service-img {
+  height: 400px; /* puedes aumentar a 450px o 500px si deseas más alto */
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.service-btn {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+.service-card:hover .service-btn {
+  opacity: 1;
+}
+/* puedes aumentar a 450px o 500px si deseas más alto */
+
+
+/* Footer Enlaces */
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #0d6efd;
+}
+
+/* Iconos sociales */
+.social-icon {
+  color: #ffffff;
+  font-size: 1.3rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #0d6efd;
+  transform: scale(1.2);
+}
+
+/* Brillo al pasar el mouse en logo */
+.footer-logo {
+  transition: filter 0.4s ease;
+}
+
+.footer-logo:hover {
+  filter: brightness(1.6) drop-shadow(0 0 5px #0d6efd);
+}
+
+/* Separador visual arriba del footer */
+section[style*="border-top"] {
+  height: 10px;
+}
+
+/* Logo grande del hero con efecto brillo */
+/* Posicionar el logo en la esquina superior izquierda */
+.hero-logo-top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px; /* Ajusta el tamaño si quieres más grande */
+  transition: filter 0.4s ease;
+  z-index: 10;
+}
+
+.hero-logo-top-left:hover {
+  filter: brightness(1.6) drop-shadow(0 0 10px #0d6efd);
+}

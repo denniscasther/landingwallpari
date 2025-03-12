@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wallpari</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tu hoja de estilos personalizada -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <!-- Font Awesome (para iconos sociales) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="assets/img/logo.png" alt="Wallpari Logo" width="30" height="30" class="me-2">
+            <span>Wallpari</span>
+          </a>
+          
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+              aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Acerca</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Hero -->
+  <header id="hero" class="text-center py-5 position-relative" style="margin-top: 56px; background: url('assets/img/fondo-hero.jpg') center center / cover no-repeat; height: 100vh;">
+    <!-- Logo en la esquina superior izquierda -->
+    <img src="assets/img/logo.png" alt="Wallpari Logo" class="hero-logo-top-left">
+  
+    <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+      <h1 class="display-3 fw-bold text-white typewriter-text">
+        Transformamos ideas en soluciones digitales
+      </h1>
+      <p class="lead" style="color: #cccccc;">Innovación, desarrollo y diseño para impulsar tu negocio.</p>
+      <a href="#contact" class="btn btn-primary btn-lg mt-3">Contáctanos</a>
+    </div>
+  </header>
+  
+  
+
+
+<!-- Sección Video Corporativo -->
+<section id="video" class="py-5 bg-dark">
+  <div class="video-container-full">
+    <video autoplay muted loop playsinline>
+      <source src="videos/empresa_intro.mp4" type="video/mp4">
+      Tu navegador no soporta videos HTML5.
+    </video>
+  </div>
+  </section>
+  
+
+<!-- Sección Trabajos Recientes -->
+<section id="portfolio" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Trabajos Recientes</h2>
+        <a href="#todos-trabajos" class="btn btn-primary mt-2">Ver Todos los Trabajos</a>
+      </div>
+  
+      <div class="row mb-4">
+        <!-- Proyecto 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card h-100 shadow-lg border-0">
+            <img src="assets/img/trabajo1.jpg" class="card-img-top project-img" alt="Trabajo 1">
+
+            <div class="card-body text-center hover-effect">
+              <h4 class="card-title">Sistema de Gestión</h4>
+              <p class="card-text">Plataforma web para control interno de empresas.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Proyecto 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="card h-100 shadow-lg border-0">
+            <img src="assets/img/trabajo2.jpg" class="card-img-top project-img" alt="Trabajo 2">
+            <div class="card-body text-center hover-effect">
+              <h4 class="card-title">App Móvil de Reservas</h4>
+              <p class="card-text">Aplicación intuitiva para reservas y gestión de citas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <!-- Proyecto 3 -->
+        <div class="col-md-6 mb-4">
+          <div class="card h-100 shadow-lg border-0">
+            <img src="assets/img/trabajo3.jpg" class="card-img-top project-img" alt="Trabajo 3">
+            <div class="card-body text-center hover-effect">
+              <h4 class="card-title">E-commerce Personalizado</h4>
+              <p class="card-text">Tienda online con diseño y experiencia única.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Proyecto 4 -->
+        <div class="col-md-6 mb-4">
+          <div class="card h-100 shadow-lg border-0">
+            <img src="assets/img/trabajo4.jpg" class="card-img-top project-img" alt="Trabajo 4">
+            <div class="card-body text-center hover-effect">
+              <h4 class="card-title">Dashboard de Análisis</h4>
+              <p class="card-text">Visualización inteligente de métricas empresariales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <!-- Sección Acerca de 
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/about.jpg" alt="Acerca de" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <h2>Acerca de Nosotros</h2>
+          <p>Somos una empresa de desarrollo de aplicaciones y sistemas que transforma ideas en soluciones tecnológicas. Trabajamos con metodologías ágiles y la última tecnología para brindar resultados de alta calidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>-->
+
+ <!-- Sección Servicios -->
+<section id="services" class="py-5 bg-light">
+  <div class="container-fluid">
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold">Nuestros Servicios</h2>
+      <p class="lead">Soluciones a medida para cada necesidad.</p>
+    </div>
+    <div class="row g-4 px-4">
+      <!-- Servicio 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card position-relative overflow-hidden rounded-4 shadow-lg">
+          <img src="assets/img/services1.jpg" class="img-fluid w-100 service-img" alt="Desarrollo Web">
+          <div class="p-4 text-center">
+            <h5 class="fw-bold">Desarrollo Web</h5>
+            <p class="text-muted">Creamos sitios web modernos y responsivos.</p>
+            <a href="#contact" class="btn btn-outline-primary service-btn">Contactar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Servicio 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card position-relative overflow-hidden rounded-4 shadow-lg">
+          <img src="assets/img/services2.jpg" class="img-fluid w-100 service-img" alt="Aplicaciones Móviles">
+          <div class="p-4 text-center">
+            <h5 class="fw-bold">Aplicaciones Móviles</h5>
+            <p class="text-muted">Desarrollamos apps nativas e híbridas para todas las plataformas.</p>
+            <a href="#contact" class="btn btn-outline-primary service-btn">Contactar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Servicio 3 -->
+      <div class="col-lg-4 col-md-6 mx-md-auto">
+        <div class="service-card position-relative overflow-hidden rounded-4 shadow-lg">
+          <img src="assets/img/services3.jpg" class="img-fluid w-100 service-img" alt="Transformación Digital">
+          <div class="p-4 text-center">
+            <h5 class="fw-bold">Transformación Digital</h5>
+            <p class="text-muted">Asesoramos en la migración y mejora de procesos a la era digital.</p>
+            <a href="#contact" class="btn btn-outline-primary service-btn">Contactar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Sección Contacto -->
+<section id="contact" class="py-5 bg-dark text-white">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="display-5 fw-bold">Contáctanos</h2>
+      <p class="lead">Estamos listos para ayudarte a impulsar tu proyecto.</p>
+    </div>
+
+    <form>
+      <div class="row mb-3">
+        <div class="col-md-6 mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Tu nombre completo">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="email" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com">
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="goal" class="form-label">¿Qué quieres lograr?</label>
+        <select class="form-select" id="goal">
+          <option value="">Selecciona una opción</option>
+          <option value="web">Desarrollo Web</option>
+          <option value="app">Desarrollo de Aplicaciones</option>
+          <option value="digital">Transformación Digital</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Cuéntanos sobre tu proyecto</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Describe brevemente tu idea o requerimientos..."></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label for="file" class="form-label">Sube un archivo relacionado (opcional)</label>
+        <input type="file" class="form-control" id="file">
+      </div>
+
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="newsletter">
+        <label class="form-check-label" for="newsletter">
+          Acepto recibir un boletín mensual con novedades y promociones.
+        </label>
+      </div>
+
+      <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+
+      <p class="text-muted small mt-4">
+        La información anterior se almacenará únicamente con fines comerciales. Consulte nuestra 
+        <a href="#" class="text-decoration-underline text-white">Política de Privacidad</a> para obtener más información.
+      </p>
+    </form>
+  </div>
+</section>
+
+
+<!-- Separador visual -->
+<section style="border-top: 4px solid #0d6efd; background-color: #111;"></section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Logo y nombre -->
+      <div class="col-md-4 mb-3 text-center text-md-start">
+        <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+          <img src="assets/img/logo.png" alt="Wallpari Logo" class="footer-logo me-2" width="40">
+          <h5 class="mb-0 fw-bold">Wallpari</h5>
+        </div>
+      </div>
+
+      <!-- Enlaces legales -->
+      <div class="col-md-4 mb-3 text-center">
+        <ul class="list-unstyled mb-0">
+          <li><a href="#" class="footer-link">Código de conducta</a></li>
+          <li><a href="#" class="footer-link">Política de privacidad</a></li>
+          <li><a href="#" class="footer-link">Información legal</a></li>
+          <li><a href="#" class="footer-link">Política social y medioambiental</a></li>
+        </ul>
+      </div>
+
+      <!-- Redes Sociales -->
+      <div class="col-md-4 text-center text-md-end">
+        <a href="#" class="social-icon me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon me-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon me-3"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Derechos -->
+    <div class="text-center mt-4 small text-muted">
+      &copy; 2025 <strong>Wallpari</strong>. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap JS Bundle (incluye Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>
